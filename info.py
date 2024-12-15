@@ -46,12 +46,12 @@ IS_VERIFY = is_enabled('IS_VERIFY', True)
 #---------------------------------------------------------------
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
-SHORTENER_API = environ.get("SHORTENER_API", "da4f9b126163e0b4aa4f1cf953829b5d09f8bd9f")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'freearn.site')
-SHORTENER_API2 = environ.get("SHORTENER_API2", "da4f9b126163e0b4aa4f1cf953829b5d09f8bd9f")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'freearn.site')
-SHORTENER_API3 = environ.get("SHORTENER_API3", "da4f9b126163e0b4aa4f1cf953829b5d09f8bd9f")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'freearn.site')
+SHORTENER_API = environ.get("SHORTENER_API", "5c96dd3948bca382cf9303ec4ace9e950062688d")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'Shortxlinks.com')
+SHORTENER_API2 = environ.get("SHORTENER_API2", "5c96dd3948bca382cf9303ec4ace9e950062688d")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'Shortxlinks.com')
+SHORTENER_API3 = environ.get("SHORTENER_API3", "5c96dd3948bca382cf9303ec4ace9e950062688d")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'Shortxlinks.com')
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "14400"))
 #---------------------------------------------------------------
@@ -95,7 +95,7 @@ LINK_MODE = is_enabled('LINK_MODE', True)
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set True or Flase
+STREAM_MODE = bool(environ.get('STREAM_MODE', False)) # Set True or Flase
 # Online Stream and Download
 
 MULTI_CLIENT = False
